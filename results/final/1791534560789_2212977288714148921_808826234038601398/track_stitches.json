@@ -1,0 +1,44 @@
+[
+  {
+    "t_s": 2.48,
+    "new_track_id": 4,
+    "kept_id": 1,
+    "reason": "new_id_after_gap",
+    "distance_px": 13.5
+  },
+  {
+    "t_s": 15.000000000000002,
+    "new_track_id": 18,
+    "kept_id": 1,
+    "reason": "new_id_after_gap",
+    "distance_px": 42.5
+  },
+  {
+    "t_s": 15.120000000000001,
+    "new_track_id": 19,
+    "kept_id": 1,
+    "reason": "overlapping_successor",
+    "iou": 0.527
+  },
+  {
+    "t_s": 73.68,
+    "new_track_id": 67,
+    "kept_id": 65,
+    "reason": "new_id_after_gap",
+    "distance_px": 48.1
+  },
+  {
+    "t_s": 124.4,
+    "new_track_id": 97,
+    "kept_id": 96,
+    "reason": "overlapping_successor",
+    "iou": 0.675
+  },
+  {
+    "t_s": 124.64000000000001,
+    "new_track_id": 96,
+    "kept_id": 96,
+    "reason": "overlapping_successor",
+    "iou": 0.569
+  }
+]

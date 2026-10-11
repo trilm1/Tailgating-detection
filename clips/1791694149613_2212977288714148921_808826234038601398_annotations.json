@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "duration_s": 129.666667,
+  "grants": [],
+  "crossings": [],
+  "gate": {
+    "reference_size": [
+      862,
+      480
+    ],
+    "start": [
+      272,
+      166
+    ],
+    "end": [
+      562,
+      478
+    ],
+    "in_side": -1,
+    "mode": "footprint",
+    "margin_px": 6
+  }
+}

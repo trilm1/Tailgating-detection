@@ -1,0 +1,47 @@
+[
+  {
+    "track_id": 8,
+    "t_cross_s": 13.116043219657145,
+    "direction": "out"
+  },
+  {
+    "track_id": 8,
+    "t_cross_s": 26.815168421088597,
+    "direction": "in"
+  },
+  {
+    "track_id": 8,
+    "t_cross_s": 40.245380605977964,
+    "direction": "out"
+  },
+  {
+    "track_id": 8,
+    "t_cross_s": 45.33794186309143,
+    "direction": "in"
+  },
+  {
+    "track_id": 89,
+    "t_cross_s": 113.82919633256155,
+    "direction": "in"
+  },
+  {
+    "track_id": 94,
+    "t_cross_s": 128.46759925146932,
+    "direction": "in"
+  },
+  {
+    "track_id": 96,
+    "t_cross_s": 129.1618515380139,
+    "direction": "out"
+  },
+  {
+    "track_id": 104,
+    "t_cross_s": 139.55658893585593,
+    "direction": "in"
+  },
+  {
+    "track_id": 94,
+    "t_cross_s": 140.14006133188317,
+    "direction": "out"
+  }
+]

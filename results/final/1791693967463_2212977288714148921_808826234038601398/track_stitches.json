@@ -1,0 +1,9 @@
+[
+  {
+    "t_s": 7.466664269964529,
+    "new_track_id": 6,
+    "kept_id": 4,
+    "reason": "new_id_after_gap",
+    "distance_px": 50.0
+  }
+]

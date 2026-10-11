@@ -1,0 +1,24 @@
+camera_id: '1791694036909_2212977288714148921_808826234038601398'
+reference_size:
+- 868
+- 480
+threshold:
+  start:
+  - 311
+  - 136
+  end:
+  - 614
+  - 474
+  in_side: -1
+  mode: footprint
+  margin_px: 6
+model: ../models/yolo11m.pt
+device: cpu
+imgsz: 640
+confidence: 0.1
+iou: 0.7
+cpu_threads: 4
+tracker_buffer_s: 1.0
+max_observation_gap_s: 1.0
+grant_grace_s: 0.5
+alert_hold_s: 2.0

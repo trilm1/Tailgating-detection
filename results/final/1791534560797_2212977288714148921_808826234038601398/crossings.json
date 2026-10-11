@@ -1,0 +1,82 @@
+[
+  {
+    "track_id": 5,
+    "t_cross_s": 17.721096322946078,
+    "direction": "in"
+  },
+  {
+    "track_id": 8,
+    "t_cross_s": 18.71469569602708,
+    "direction": "in"
+  },
+  {
+    "track_id": 26,
+    "t_cross_s": 23.05944818016137,
+    "direction": "in"
+  },
+  {
+    "track_id": 36,
+    "t_cross_s": 32.4950569482529,
+    "direction": "out"
+  },
+  {
+    "track_id": 39,
+    "t_cross_s": 37.330981235390595,
+    "direction": "out"
+  },
+  {
+    "track_id": 40,
+    "t_cross_s": 39.55267164225532,
+    "direction": "out"
+  },
+  {
+    "track_id": 52,
+    "t_cross_s": 58.97749281223386,
+    "direction": "in"
+  },
+  {
+    "track_id": 55,
+    "t_cross_s": 59.8412303185733,
+    "direction": "in"
+  },
+  {
+    "track_id": 64,
+    "t_cross_s": 75.13375655341542,
+    "direction": "out"
+  },
+  {
+    "track_id": 70,
+    "t_cross_s": 76.71999778752216,
+    "direction": "out"
+  },
+  {
+    "track_id": 82,
+    "t_cross_s": 90.82741255244113,
+    "direction": "in"
+  },
+  {
+    "track_id": 83,
+    "t_cross_s": 91.90818946871431,
+    "direction": "in"
+  },
+  {
+    "track_id": 83,
+    "t_cross_s": 102.82525125125566,
+    "direction": "out"
+  },
+  {
+    "track_id": 89,
+    "t_cross_s": 105.32898269639915,
+    "direction": "out"
+  },
+  {
+    "track_id": 104,
+    "t_cross_s": 120.13104209092639,
+    "direction": "in"
+  },
+  {
+    "track_id": 117,
+    "t_cross_s": 120.88070743645223,
+    "direction": "in"
+  }
+]

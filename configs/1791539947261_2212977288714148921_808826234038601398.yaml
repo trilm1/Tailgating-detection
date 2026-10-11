@@ -1,0 +1,32 @@
+camera_id: '1791539947261_2212977288714148921_808826234038601398'
+reference_size:
+- 854
+- 480
+threshold:
+  start:
+  - 350
+  - 480
+  end:
+  - 400
+  - 280
+  in_side: 1
+  margin_px: 6
+  mode: point
+model: ../models/yolo11m.pt
+device: cpu
+imgsz: 640
+confidence: 0.1
+iou: 0.7
+cpu_threads: 4
+tracker_buffer_s: 1.0
+max_observation_gap_s: 1.0
+grant_grace_s: 0.5
+alert_hold_s: 2.0
+grant_lead_s: 0.1
+grant_assignment: unfilled_first
+stitch_radius_rel: 0.35
+stitch_min_iou: 0.5
+margin_rel: 0.03
+track_high_thresh: 0.25
+new_track_thresh: 0.25
+min_box_height_frac: 0.25

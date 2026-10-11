@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "duration_s": 71.933333,
+  "grants": [
+    {
+      "grant_id": "g01",
+      "t_unlock_s": 6.297,
+      "t_relock_s": 7.536,
+      "scenario": 8
+    },
+    {
+      "grant_id": "g02",
+      "t_unlock_s": 34.824,
+      "t_relock_s": 36.227,
+      "scenario": 8
+    },
+    {
+      "grant_id": "g03",
+      "t_unlock_s": 57.795,
+      "t_relock_s": 58.911,
+      "scenario": 1
+    },
+    {
+      "grant_id": "g04",
+      "t_unlock_s": 70.177,
+      "t_relock_s": 71.591,
+      "scenario": 8
+    }
+  ],
+  "crossings": [
+    {
+      "person_id": "p01",
+      "t_cross_s": 6.705,
+      "direction": "in",
+      "grant_id": "g01",
+      "scenario": null
+    },
+    {
+      "person_id": "p02",
+      "t_cross_s": 14.748,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p03",
+      "t_cross_s": 25.529,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p04",
+      "t_cross_s": 35.562,
+      "direction": "in",
+      "grant_id": "g02",
+      "scenario": null
+    },
+    {
+      "person_id": "p05",
+      "t_cross_s": 45.674,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p06",
+      "t_cross_s": 58.144,
+      "direction": "in",
+      "grant_id": "g03",
+      "scenario": null
+    },
+    {
+      "person_id": "p07",
+      "t_cross_s": 70.647,
+      "direction": "in",
+      "grant_id": "g04",
+      "scenario": null
+    }
+  ],
+  "gate": {
+    "reference_size": [
+      856,
+      480
+    ],
+    "start": [
+      305,
+      141
+    ],
+    "end": [
+      606,
+      478
+    ],
+    "in_side": -1,
+    "mode": "footprint",
+    "margin_px": 6
+  }
+}

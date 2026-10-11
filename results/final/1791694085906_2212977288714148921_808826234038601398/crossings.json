@@ -1,0 +1,27 @@
+[
+  {
+    "track_id": 5,
+    "t_cross_s": 6.796021332355191,
+    "direction": "in"
+  },
+  {
+    "track_id": 16,
+    "t_cross_s": 25.168705017432764,
+    "direction": "out"
+  },
+  {
+    "track_id": 37,
+    "t_cross_s": 35.51701608662112,
+    "direction": "in"
+  },
+  {
+    "track_id": 49,
+    "t_cross_s": 45.18259761841175,
+    "direction": "out"
+  },
+  {
+    "track_id": 50,
+    "t_cross_s": 58.25062639730876,
+    "direction": "in"
+  }
+]

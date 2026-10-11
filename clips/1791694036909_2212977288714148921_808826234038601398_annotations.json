@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "duration_s": 71.2,
+  "grants": [
+    {
+      "grant_id": "g01",
+      "t_unlock_s": 5.772,
+      "t_relock_s": 7.153,
+      "scenario": 3
+    },
+    {
+      "grant_id": "g02",
+      "t_unlock_s": 28.503,
+      "t_relock_s": 29.661,
+      "scenario": 3
+    },
+    {
+      "grant_id": "g03",
+      "t_unlock_s": 48.758,
+      "t_relock_s": 49.785,
+      "scenario": 3
+    },
+    {
+      "grant_id": "g04",
+      "t_unlock_s": 68.089,
+      "t_relock_s": 68.931,
+      "scenario": 3
+    }
+  ],
+  "crossings": [
+    {
+      "person_id": "p01",
+      "t_cross_s": 6.38,
+      "direction": "in",
+      "grant_id": "g01",
+      "scenario": null
+    },
+    {
+      "person_id": "p14",
+      "t_cross_s": 6.675,
+      "direction": "in",
+      "grant_id": "g01",
+      "scenario": null
+    },
+    {
+      "person_id": "p02",
+      "t_cross_s": 18.53,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p03",
+      "t_cross_s": 18.904,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p04",
+      "t_cross_s": 29.034,
+      "direction": "in",
+      "grant_id": "g02",
+      "scenario": null
+    },
+    {
+      "person_id": "p05",
+      "t_cross_s": 29.034,
+      "direction": "in",
+      "grant_id": "g02",
+      "scenario": null
+    },
+    {
+      "person_id": "p06",
+      "t_cross_s": 39.757,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p07",
+      "t_cross_s": 39.757,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p08",
+      "t_cross_s": 49.253,
+      "direction": "in",
+      "grant_id": "g03",
+      "scenario": null
+    },
+    {
+      "person_id": "p09",
+      "t_cross_s": 49.366,
+      "direction": "in",
+      "grant_id": "g03",
+      "scenario": null
+    },
+    {
+      "person_id": "p10",
+      "t_cross_s": 59.951,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p11",
+      "t_cross_s": 60.297,
+      "direction": "out",
+      "grant_id": null,
+      "scenario": null
+    },
+    {
+      "person_id": "p12",
+      "t_cross_s": 68.481,
+      "direction": "in",
+      "grant_id": "g04",
+      "scenario": null
+    },
+    {
+      "person_id": "p13",
+      "t_cross_s": 68.481,
+      "direction": "in",
+      "grant_id": "g04",
+      "scenario": null
+    }
+  ],
+  "gate": {
+    "reference_size": [
+      868,
+      480
+    ],
+    "start": [
+      311,
+      136
+    ],
+    "end": [
+      614,
+      474
+    ],
+    "in_side": -1,
+    "mode": "footprint",
+    "margin_px": 6
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "t_s": 12.945,
+    "new_track_id": 23,
+    "kept_id": 7,
+    "reason": "overlapping_successor",
+    "iou": 0.634
+  },
+  {
+    "t_s": 21.345000000000002,
+    "new_track_id": 58,
+    "kept_id": 54,
+    "reason": "new_id_after_gap",
+    "distance_px": 13.5
+  },
+  {
+    "t_s": 21.465,
+    "new_track_id": 48,
+    "kept_id": 54,
+    "reason": "new_id_after_gap",
+    "distance_px": 15.9
+  },
+  {
+    "t_s": 22.665000000000003,
+    "new_track_id": 60,
+    "kept_id": 54,
+    "reason": "new_id_after_gap",
+    "distance_px": 1.2
+  },
+  {
+    "t_s": 30.705000000000005,
+    "new_track_id": 70,
+    "kept_id": 68,
+    "reason": "new_id_after_gap",
+    "distance_px": 29.2
+  },
+  {
+    "t_s": 33.025,
+    "new_track_id": 74,
+    "kept_id": 73,
+    "reason": "overlapping_successor",
+    "iou": 0.641
+  },
+  {
+    "t_s": 139.145,
+    "new_track_id": 215,
+    "kept_id": 210,
+    "reason": "new_id_after_gap",
+    "distance_px": 20.8
+  },
+  {
+    "t_s": 171.865,
+    "new_track_id": 248,
+    "kept_id": 243,
+    "reason": "new_id_after_gap",
+    "distance_px": 51.3
+  },
+  {
+    "t_s": 172.54500000000002,
+    "new_track_id": 251,
+    "kept_id": 243,
+    "reason": "new_id_after_gap",
+    "distance_px": 65.2
+  },
+  {
+    "t_s": 174.065,
+    "new_track_id": 260,
+    "kept_id": 243,
+    "reason": "new_id_after_gap",
+    "distance_px": 24.4
+  },
+  {
+    "t_s": 176.025,
+    "new_track_id": 266,
+    "kept_id": 243,
+    "reason": "new_id_after_gap",
+    "distance_px": 14.7
+  }
+]

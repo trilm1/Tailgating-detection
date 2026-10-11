@@ -1,0 +1,1058 @@
+{
+  "confusion": {
+    "tp": 18,
+    "fp": 0,
+    "fn": 1,
+    "tn": 54,
+    "exact_count": 70,
+    "grants": 73
+  },
+  "tailgating": {
+    "precision": 1.0,
+    "recall": 0.9473684210526315,
+    "f1": 0.972972972972973
+  },
+  "count_accuracy": 0.958904109589041,
+  "by_scenario": {
+    "1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 42,
+      "exact_count": 41,
+      "grants": 42
+    },
+    "5": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 3,
+      "exact_count": 3,
+      "grants": 3
+    },
+    "2": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "exact_count": 13,
+      "grants": 13
+    },
+    "4": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "exact_count": 2,
+      "grants": 2
+    },
+    "7": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 4,
+      "exact_count": 4,
+      "grants": 4
+    },
+    "8": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 5,
+      "exact_count": 4,
+      "grants": 5
+    },
+    "3": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "exact_count": 3,
+      "grants": 4
+    }
+  },
+  "unauthorised_entry": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "processing_fps": 3.763779551653213,
+  "frames": 29023,
+  "notes": "Counts are pooled across clips (not mean F1).",
+  "clips": [
+    {
+      "out": "results/final/1791534560789_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 3567,
+        "input_fps": 24.902261938006145,
+        "width": 854,
+        "height": 480,
+        "processing_seconds": 969.4870760000776,
+        "processing_fps": 3.6792651375166083,
+        "output_validation_seconds": 4.129782600095496,
+        "output_validated": true,
+        "timestamp_fallback_frames": 0,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 978.369867300149,
+        "total_fps": 3.6458604452355834
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "count_accuracy": 1.0,
+        "confusion": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 4,
+          "exact_count": 4,
+          "grants": 4
+        },
+        "by_scenario": {
+          "1": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 2,
+            "exact_count": 2,
+            "grants": 2
+          },
+          "5": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 2,
+            "exact_count": 2,
+            "grants": 2
+          }
+        },
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 3567,
+          "input_fps": 24.902261938006145,
+          "width": 854,
+          "height": 480,
+          "processing_seconds": 969.4870760000776,
+          "processing_fps": 3.6792651375166083,
+          "output_validation_seconds": 4.129782600095496,
+          "output_validated": true,
+          "timestamp_fallback_frames": 0,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 978.369867300149,
+          "total_fps": 3.6458604452355834
+        },
+        "label_warnings": []
+      }
+    },
+    {
+      "out": "results/final/1791534560791_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 1662,
+        "input_fps": 24.89514679448772,
+        "width": 854,
+        "height": 480,
+        "processing_seconds": 432.0142345998902,
+        "processing_fps": 3.847095458646775,
+        "output_validation_seconds": 1.9877510000951588,
+        "output_validated": true,
+        "timestamp_fallback_frames": 0,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 434.22448690002784,
+        "total_fps": 3.8275133027738364
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "count_accuracy": 1.0,
+        "confusion": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 6,
+          "exact_count": 6,
+          "grants": 6
+        },
+        "by_scenario": {
+          "1": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 6,
+            "exact_count": 6,
+            "grants": 6
+          }
+        },
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 1662,
+          "input_fps": 24.89514679448772,
+          "width": 854,
+          "height": 480,
+          "processing_seconds": 432.0142345998902,
+          "processing_fps": 3.847095458646775,
+          "output_validation_seconds": 1.9877510000951588,
+          "output_validated": true,
+          "timestamp_fallback_frames": 0,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 434.22448690002784,
+          "total_fps": 3.8275133027738364
+        },
+        "label_warnings": []
+      }
+    },
+    {
+      "out": "results/final/1791534560797_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 3198,
+        "input_fps": 24.906542056074766,
+        "width": 854,
+        "height": 480,
+        "processing_seconds": 844.8142083000857,
+        "processing_fps": 3.7854476979440683,
+        "output_validation_seconds": 4.13465499994345,
+        "output_validated": true,
+        "timestamp_fallback_frames": 0,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 849.2341438001022,
+        "total_fps": 3.7657459057048515
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "count_accuracy": 1.0,
+        "confusion": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "tn": 3,
+          "exact_count": 6,
+          "grants": 6
+        },
+        "by_scenario": {
+          "2": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "exact_count": 3,
+            "grants": 3
+          },
+          "1": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 3,
+            "exact_count": 3,
+            "grants": 3
+          }
+        },
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 3198,
+          "input_fps": 24.906542056074766,
+          "width": 854,
+          "height": 480,
+          "processing_seconds": 844.8142083000857,
+          "processing_fps": 3.7854476979440683,
+          "output_validation_seconds": 4.13465499994345,
+          "output_validated": true,
+          "timestamp_fallback_frames": 0,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 849.2341438001022,
+          "total_fps": 3.7657459057048515
+        },
+        "label_warnings": []
+      }
+    },
+    {
+      "out": "results/final/1791539926064_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 9029,
+        "input_fps": 24.90621207105815,
+        "width": 854,
+        "height": 480,
+        "processing_seconds": 2403.4680532999337,
+        "processing_fps": 3.756654883597595,
+        "output_validation_seconds": 9.64333020010963,
+        "output_validated": true,
+        "timestamp_fallback_frames": 0,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 2413.4647166000213,
+        "total_fps": 3.7410946751770386
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "count_accuracy": 1.0,
+        "confusion": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "tn": 18,
+          "exact_count": 26,
+          "grants": 26
+        },
+        "by_scenario": {
+          "1": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 18,
+            "exact_count": 18,
+            "grants": 18
+          },
+          "2": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "exact_count": 7,
+            "grants": 7
+          },
+          "4": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "exact_count": 1,
+            "grants": 1
+          }
+        },
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 9029,
+          "input_fps": 24.90621207105815,
+          "width": 854,
+          "height": 480,
+          "processing_seconds": 2403.4680532999337,
+          "processing_fps": 3.756654883597595,
+          "output_validation_seconds": 9.64333020010963,
+          "output_validated": true,
+          "timestamp_fallback_frames": 0,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 2413.4647166000213,
+          "total_fps": 3.7410946751770386
+        },
+        "label_warnings": []
+      }
+    },
+    {
+      "out": "results/final/1791539947261_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 8045,
+        "input_fps": 24.908277474186107,
+        "width": 854,
+        "height": 480,
+        "processing_seconds": 2117.2315660999157,
+        "processing_fps": 3.79977331191006,
+        "output_validation_seconds": 8.15209130011499,
+        "output_validated": true,
+        "timestamp_fallback_frames": 0,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 2125.708299800055,
+        "total_fps": 3.7846208723730888
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "count_accuracy": 0.9473684210526315,
+        "confusion": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "tn": 18,
+          "exact_count": 18,
+          "grants": 19
+        },
+        "by_scenario": {
+          "4": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "exact_count": 1,
+            "grants": 1
+          },
+          "7": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 4,
+            "exact_count": 4,
+            "grants": 4
+          },
+          "1": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 11,
+            "exact_count": 10,
+            "grants": 11
+          },
+          "8": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 2,
+            "exact_count": 2,
+            "grants": 2
+          },
+          "5": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 1,
+            "exact_count": 1,
+            "grants": 1
+          }
+        },
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 8045,
+          "input_fps": 24.908277474186107,
+          "width": 854,
+          "height": 480,
+          "processing_seconds": 2117.2315660999157,
+          "processing_fps": 3.79977331191006,
+          "output_validation_seconds": 8.15209130011499,
+          "output_validated": true,
+          "timestamp_fallback_frames": 0,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 2125.708299800055,
+          "total_fps": 3.7846208723730888
+        },
+        "label_warnings": []
+      }
+    },
+    {
+      "out": "results/final/1791693967463_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 973,
+        "input_fps": 14.294809514109705,
+        "width": 864,
+        "height": 480,
+        "processing_seconds": 253.15636209980585,
+        "processing_fps": 3.8434744121358433,
+        "output_validation_seconds": 1.127422699937597,
+        "output_validated": true,
+        "timestamp_fallback_frames": 18,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 254.60659489990212,
+        "total_fps": 3.82158207796044
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "count_accuracy": 1.0,
+        "confusion": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "tn": 1,
+          "exact_count": 4,
+          "grants": 4
+        },
+        "by_scenario": {
+          "2": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "exact_count": 3,
+            "grants": 3
+          },
+          "1": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 1,
+            "exact_count": 1,
+            "grants": 1
+          }
+        },
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 973,
+          "input_fps": 14.294809514109705,
+          "width": 864,
+          "height": 480,
+          "processing_seconds": 253.15636209980585,
+          "processing_fps": 3.8434744121358433,
+          "output_validation_seconds": 1.127422699937597,
+          "output_validated": true,
+          "timestamp_fallback_frames": 18,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 254.60659489990212,
+          "total_fps": 3.82158207796044
+        },
+        "label_warnings": []
+      }
+    },
+    {
+      "out": "results/final/1791694036909_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 1013,
+        "input_fps": 14.294450265597295,
+        "width": 868,
+        "height": 480,
+        "processing_seconds": 262.37456500018016,
+        "processing_fps": 3.8608925373513414,
+        "output_validation_seconds": 1.116243400145322,
+        "output_validated": true,
+        "timestamp_fallback_frames": 18,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 263.806200500112,
+        "total_fps": 3.8399400699437685
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "count_accuracy": 0.75,
+        "confusion": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 1,
+          "tn": 0,
+          "exact_count": 3,
+          "grants": 4
+        },
+        "by_scenario": {
+          "3": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "tn": 0,
+            "exact_count": 3,
+            "grants": 4
+          }
+        },
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 1013,
+          "input_fps": 14.294450265597295,
+          "width": 868,
+          "height": 480,
+          "processing_seconds": 262.37456500018016,
+          "processing_fps": 3.8608925373513414,
+          "output_validation_seconds": 1.116243400145322,
+          "output_validated": true,
+          "timestamp_fallback_frames": 18,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 263.806200500112,
+          "total_fps": 3.8399400699437685
+        },
+        "label_warnings": []
+      }
+    },
+    {
+      "out": "results/final/1791694085906_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 1024,
+        "input_fps": 14.288374120095211,
+        "width": 856,
+        "height": 480,
+        "processing_seconds": 284.5703636999242,
+        "processing_fps": 3.598407039602321,
+        "output_validation_seconds": 1.6971040000207722,
+        "output_validated": true,
+        "timestamp_fallback_frames": 18,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 286.5373329001013,
+        "total_fps": 3.573705351536194
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "count_accuracy": 0.75,
+        "confusion": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 4,
+          "exact_count": 3,
+          "grants": 4
+        },
+        "by_scenario": {
+          "8": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 3,
+            "exact_count": 2,
+            "grants": 3
+          },
+          "1": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 1,
+            "exact_count": 1,
+            "grants": 1
+          }
+        },
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 1024,
+          "input_fps": 14.288374120095211,
+          "width": 856,
+          "height": 480,
+          "processing_seconds": 284.5703636999242,
+          "processing_fps": 3.598407039602321,
+          "output_validation_seconds": 1.6971040000207722,
+          "output_validated": true,
+          "timestamp_fallback_frames": 18,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 286.5373329001013,
+          "total_fps": 3.573705351536194
+        },
+        "label_warnings": []
+      }
+    },
+    {
+      "out": "results/final/1791694149613_2212977288714148921_808826234038601398",
+      "performance": {
+        "frames": 512,
+        "input_fps": 14.328358342615283,
+        "width": 862,
+        "height": 480,
+        "processing_seconds": 144.0153206998948,
+        "processing_fps": 3.5551773069125554,
+        "output_validation_seconds": 0.7768891002051532,
+        "output_validated": true,
+        "timestamp_fallback_frames": 0,
+        "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+        "device": "cpu",
+        "hardware": {
+          "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+          "logical_cpus": 12,
+          "os": "Windows-10-10.0.26200-SP0",
+          "python": "3.10.0",
+          "packages": {
+            "ultralytics": "8.3.70",
+            "torch": "2.6.0+cu124",
+            "opencv-python": "4.10.0.84",
+            "numpy": "1.26.4",
+            "lap": "0.5.12"
+          }
+        },
+        "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+        "total_seconds": 145.07846460002474,
+        "total_fps": 3.529124749228375
+      },
+      "metrics": {
+        "tailgating": {
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "count_accuracy": null,
+        "confusion": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0,
+          "exact_count": 0,
+          "grants": 0
+        },
+        "by_scenario": {},
+        "unauthorised_entry": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "tolerance_s": 1.0
+        },
+        "notes": "Tailgating is scored per grant; unauthorised entries by one-to-one time matching. Undefined ratios are null.",
+        "performance": {
+          "frames": 512,
+          "input_fps": 14.328358342615283,
+          "width": 862,
+          "height": 480,
+          "processing_seconds": 144.0153206998948,
+          "processing_fps": 3.5551773069125554,
+          "output_validation_seconds": 0.7768891002051532,
+          "output_validated": true,
+          "timestamp_fallback_frames": 0,
+          "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+          "device": "cpu",
+          "hardware": {
+            "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+            "logical_cpus": 12,
+            "os": "Windows-10-10.0.26200-SP0",
+            "python": "3.10.0",
+            "packages": {
+              "ultralytics": "8.3.70",
+              "torch": "2.6.0+cu124",
+              "opencv-python": "4.10.0.84",
+              "numpy": "1.26.4",
+              "lap": "0.5.12"
+            }
+          },
+          "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+          "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+          "total_seconds": 145.07846460002474,
+          "total_fps": 3.529124749228375
+        },
+        "label_warnings": []
+      }
+    }
+  ]
+}

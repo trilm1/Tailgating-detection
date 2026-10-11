@@ -1,0 +1,13 @@
+person_id,t_cross_s,direction,grant_id
+p01,10.825,in,g01
+p02,11.482,in,g01
+p03,25.374,out,
+p04,26.057,out,
+p05,33.956,in,g02
+p05,36.075,out,g02
+p06,45.002,in,g03
+p07,45.909,in,g03
+p08,56.227,out,
+p09,56.577,out,
+p10,66.368,in,g04
+p11,67.053,in,g04

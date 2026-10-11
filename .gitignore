@@ -1,0 +1,11 @@
+# Python bytecode and local environment/cache
+__pycache__/
+*.py[cod]
+.cache/
+.venv/
+
+# Videos are distributed through the submission download link.
+# Keep CSV/JSON labels, metrics, configs and failure images in Git.
+/clips/*.mp4
+/results/**/*.mp4
+computer_vision_homework.md

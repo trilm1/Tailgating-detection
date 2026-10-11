@@ -1,0 +1,30 @@
+{
+  "frames": 8045,
+  "input_fps": 24.908277474186107,
+  "width": 854,
+  "height": 480,
+  "processing_seconds": 2117.2315660999157,
+  "processing_fps": 3.79977331191006,
+  "output_validation_seconds": 8.15209130011499,
+  "output_validated": true,
+  "timestamp_fallback_frames": 0,
+  "timestamp_source": "OpenCV POS_MSEC; index/FPS fallback",
+  "device": "cpu",
+  "hardware": {
+    "cpu": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+    "logical_cpus": 12,
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.0",
+    "packages": {
+      "ultralytics": "8.3.70",
+      "torch": "2.6.0+cu124",
+      "opencv-python": "4.10.0.84",
+      "numpy": "1.26.4",
+      "lap": "0.5.12"
+    }
+  },
+  "model_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+  "fps_scope": "decode, detect, track, count, render, write and finalize video; model loading and output validation excluded",
+  "total_seconds": 2125.708299800055,
+  "total_fps": 3.7846208723730888
+}

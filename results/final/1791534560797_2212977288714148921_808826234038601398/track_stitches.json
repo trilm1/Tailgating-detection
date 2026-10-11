@@ -1,0 +1,16 @@
+[
+  {
+    "t_s": 5.760000000000001,
+    "new_track_id": 3,
+    "kept_id": 1,
+    "reason": "overlapping_successor",
+    "iou": 0.577
+  },
+  {
+    "t_s": 33.440000000000005,
+    "new_track_id": 41,
+    "kept_id": 40,
+    "reason": "new_id_after_gap",
+    "distance_px": 15.1
+  }
+]

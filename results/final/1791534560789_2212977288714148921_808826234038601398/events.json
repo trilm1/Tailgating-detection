@@ -1,0 +1,66 @@
+[
+  {
+    "grant_id": "g01",
+    "t_unlock_s": 45.124,
+    "entries": 1,
+    "alert": "none",
+    "crossings": [
+      {
+        "track_id": 8,
+        "t_cross_s": 45.33794186309143,
+        "direction": "in"
+      }
+    ]
+  },
+  {
+    "grant_id": "g02",
+    "t_unlock_s": 113.711,
+    "entries": 1,
+    "alert": "none",
+    "crossings": [
+      {
+        "track_id": 89,
+        "t_cross_s": 113.82919633256155,
+        "direction": "in"
+      }
+    ]
+  },
+  {
+    "grant_id": "g03",
+    "t_unlock_s": 128.198,
+    "entries": 1,
+    "alert": "none",
+    "crossings": [
+      {
+        "track_id": 94,
+        "t_cross_s": 128.46759925146932,
+        "direction": "in"
+      }
+    ]
+  },
+  {
+    "grant_id": "g04",
+    "t_unlock_s": 139.296,
+    "entries": 1,
+    "alert": "none",
+    "crossings": [
+      {
+        "track_id": 104,
+        "t_cross_s": 139.55658893585593,
+        "direction": "in"
+      }
+    ]
+  },
+  {
+    "grant_id": null,
+    "entries": 1,
+    "alert": "unauthorised_entry",
+    "crossings": [
+      {
+        "track_id": 8,
+        "t_cross_s": 26.815168421088597,
+        "direction": "in"
+      }
+    ]
+  }
+]
